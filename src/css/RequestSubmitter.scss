@@ -1,0 +1,105 @@
+.req-box {
+  background-color: #dbd3e9;
+  .book-now {
+    color: #1d072e;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+
+  .reservation-status {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+
+    .booked {
+      color: indigo;
+      padding-right: 10px;
+    }
+
+    .remain {
+      color: green;
+    }
+    .fully-booked {
+      color: red;
+    }
+  }
+
+  .desc-txt-area {
+    width: 600px;
+  }
+  .datepicker {
+    width: 600px;
+  }
+  #geocoder {
+    .mapboxgl-ctrl-geocoder {
+      width: 600px;
+      max-width: 600px;
+    }
+  }
+
+  #req-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #3a0071;
+  }
+  #req-btn:hover {
+    background-color: rgb(2, 67, 2);
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .req-box {
+    .book-now {
+      font-size: 40px;
+    }
+
+    .desc-txt-area {
+      width: 300px;
+    }
+    .datepicker {
+      width: 300px;
+    }
+    #geocoder {
+      .mapboxgl-ctrl-geocoder {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .req-box {
+    .book-now {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .req-box {
+    .desc-txt-area {
+      width: 200px;
+      height: 100px !important;
+    }
+    .datepicker {
+      width: 200px;
+    }
+    #geocoder {
+      .mapboxgl-ctrl-geocoder {
+        width: 200px;
+        min-width: 100px;
+      }
+    }
+    #req-btn {
+      width: 120px;
+      height: 40px;
+    }
+  }
+}

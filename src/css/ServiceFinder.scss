@@ -1,0 +1,134 @@
+.service-finder {
+  box-sizing: border-box;
+  background-color: #1d072e;
+
+  // height: 700px;
+  .carousel {
+    // background-color: pink;
+    // height: 600px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 300px;
+    text-align: center;
+
+    .img-pair {
+      img {
+        width: 50%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .head {
+    margin: 20px 0;
+    // background-color: skyblue;
+    color: aliceblue;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+  }
+
+  $bar_height: 40px;
+  $bar_padding: 10px;
+  .search-bar {
+    // height: $bar_height;
+    width: 400px;
+  }
+  .radius-select {
+    padding: 0 $bar_padding;
+    .ant-select-selector {
+      height: $bar_height;
+      .ant-select-selection-item {
+        line-height: $bar_height;
+        color: #1d072e;
+      }
+    }
+  }
+
+  .reset-btn {
+    width: 100px;
+    height: $bar_height;
+  }
+
+  .ant-pagination-item-link {
+    color: aliceblue !important;
+  }
+
+  .ant-empty-description {
+    color: aliceblue;
+  }
+
+  .ant-pagination-item-1.ant-pagination-item-disabled {
+    a {
+      color: aliceblue;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .service-finder {
+    .head {
+      font-size: 30px;
+    }
+    .search-bar {
+      // height: $bar_height;
+      width: 400px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .service-finder {
+    .head {
+      font-size: 30px;
+    }
+    .search-bar {
+      // height: $bar_height;
+      width: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .service-finder {
+    .head {
+      font-size: 30px;
+    }
+    .search-bar {
+      // height: $bar_height;
+      width: 200px;
+    }
+
+    // .radius-select {
+    //   margin-top: 10px;
+    // }
+
+    .reset-btn {
+      margin-top: 10px;
+      margin-right: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 303px) {
+  .service-finder {
+    .head {
+      font-size: 30px;
+    }
+    .search-bar {
+      // height: $bar_height;
+      width: 200px;
+    }
+
+    .radius-select {
+      margin-top: 10px;
+    }
+
+    .reset-btn {
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+  }
+}

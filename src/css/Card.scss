@@ -1,0 +1,97 @@
+.card {
+  .card-list-container {
+    .ant-row {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .wrap {
+    // width: 100%;
+    // height: 100vh;
+    // background: url(../assets/react.svg) no-repeat center;
+    // background-color: salmon;
+    // background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 300px;
+    color: white;
+    // h-shadow v-shadow blur spread color insert
+    // box-shadow: 2px 2px 10px 0 rgb(131, 125, 114);
+    // background-color: wheat;
+    // background-color: rgb(147, 138, 222);
+    // background-color: black;
+    background-color: #260d33;
+    background-color: #4223536d;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+  }
+
+  .hide {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .card-img {
+    width: 90%;
+    height: 200px;
+    // background-color: skyblue;
+    // border-top-right-radius: 20px;
+    // border-top-left-radius: 20px;
+    border-radius: 20px;
+    transform: translateZ(70px);
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+    }
+  }
+
+  .details {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    transform: translateZ(30px);
+
+    h3 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: aliceblue;
+      font-weight: 200;
+    }
+
+    h1 {
+      padding-top: 10px;
+      color: azure;
+    }
+
+    p {
+      padding-bottom: 20px;
+      color: #d5d2d2;
+    }
+  }
+
+  .rate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    // background-color: #f6901a;
+    // background-color: #473bab;
+    background-color: rgb(82, 81, 81);
+    background-color: #4d2760;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+  }
+
+  .image {
+    width: 400px;
+  }
+}

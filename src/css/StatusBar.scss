@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap);
+.status-bar {
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  color: antiquewhite;
+
+  // background-color: gainsboro;
+  background-color: #410080;
+  // background-color: #1d072e;
+
+  .nav-bar {
+    $navH: 70px;
+    height: $navH;
+    line-height: $navH;
+
+    .logo {
+      font-size: 30px;
+      font-family: 'Bruno Ace SC', cursive;
+      text-align: center;
+      a {
+        color: aliceblue;
+        font-weight: bold;
+      }
+    }
+
+    .home {
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+
+      a {
+        color: antiquewhite;
+        border-radius: 20px;
+        border-style: dotted;
+        border-width: 2px;
+        padding: 0px 10px;
+      }
+
+      a:hover {
+        transform: translateZ(50px);
+        background-color: antiquewhite;
+        color: #00318a;
+      }
+    }
+
+    .slogan {
+      // text-align: center;
+      padding-left: 15vw;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .login-btn {
+      font-size: 25px;
+      padding: 0px 10px;
+
+      border-radius: 20px;
+      color: antiquewhite;
+      border-style: dotted;
+      border-color: antiquewhite;
+      border-width: 2px;
+      font-family: 'Pacifico', cursive;
+    }
+    .login-btn:hover {
+      transform: translateZ(50px);
+      background-color: antiquewhite;
+      color: #00318a;
+    }
+  }
+}
+
+.link-box {
+  background-color: aliceblue;
+  a {
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    color: #410080;
+    // background-color: #00318a;
+    font-size: 30px;
+    border-color: #410080;
+    border-width: 2px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    // margin: 20px;
+    border-radius: 20px;
+  }
+
+  a:hover {
+    color: aliceblue;
+    // background-color: #00318a;
+    background-color: #0259fb;
+    background-color: #410080;
+
+    border-radius: 50;
+  }
+}
+
+@media only screen and (max-width: 1620px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 20px;
+      }
+      .home {
+        font-size: 20px;
+      }
+      .slogan {
+        padding-left: 10vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 16px;
+      }
+      .home {
+        font-size: 16px;
+      }
+      .slogan {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 12px;
+      }
+      .home {
+        font-size: 12px;
+      }
+      .slogan {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 12px;
+      }
+      .home {
+        font-size: 12px;
+      }
+      .slogan {
+        padding-left: 15px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 12px;
+      }
+      .home {
+        font-size: 12px;
+        display: none;
+      }
+      .slogan {
+        padding-left: 20px;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 12px;
+      }
+      .home {
+        display: none;
+      }
+      .slogan {
+        padding-left: 10vw;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .status-bar {
+    .nav-bar {
+      .logo {
+        font-size: 15px;
+        a {
+          display: block;
+          width: 200px;
+        }
+        // margin-right: 300px;
+      }
+      .home {
+        display: none;
+      }
+      .slogan {
+        display: none;
+        // padding-left: 10vw;
+        // font-size: 20px;
+      }
+
+      .user-avatar {
+        margin-left: 70vw;
+      }
+    }
+  }
+}

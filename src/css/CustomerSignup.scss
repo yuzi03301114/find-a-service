@@ -1,0 +1,33 @@
+$input_height: 50px;
+$input_width: 280px;
+
+.sign-up {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #1d072e;
+  padding-top: 10vh;
+
+  .form-container {
+    box-sizing: border-box;
+    background-color: #dbd3e9;
+    border-radius: 20px;
+    padding: 20px 10px;
+    font-weight: bold;
+
+    .signup-title {
+      font-size: 30px;
+      padding-bottom: 30px;
+    }
+
+    .signup-input {
+      width: $input_width;
+      height: $input_height;
+    }
+
+    .create-btn {
+      width: $input_width;
+      height: $input_height;
+      background-color: #473bab;
+    }
+  }
+}

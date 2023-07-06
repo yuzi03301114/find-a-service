@@ -1,0 +1,44 @@
+.customer-page {
+  box-sizing: border-box;
+
+  background-color: #1d072e;
+  background-color: #dbd3e9;
+
+  height: 100vh;
+  // padding: 10vh 10vw 10vh;
+
+  .tabs {
+    background-color: #dbd3e9;
+    width: 80vw;
+  }
+
+  .profile-box {
+    .hint-head {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    #update-btn {
+      width: 150px;
+      height: 35px;
+      background-color: #3a0071;
+    }
+    #change-btn {
+      width: 150px;
+      height: 35px;
+      background-color: #3a0071;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .customer-page {
+    height: 150vh;
+    .profile-box {
+      .hint-head {
+        font-size: 20px;
+        max-width: 100px;
+      }
+    }
+  }
+}

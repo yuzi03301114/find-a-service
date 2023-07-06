@@ -1,0 +1,74 @@
+.service-provider-container {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.navigation {
+  height: 100vh;
+
+  .ant-layout-sider {
+    background-color: #1d1d1d;
+    height: 100%;
+
+    .ant-menu {
+      background-color: #1d1d1d;
+      color: #fff;
+      height: 100%;
+
+      .ant-menu-item {
+        text-align: center;
+        //blod
+        font-size: 1.5em;
+        font-weight: bold;
+        height: 50px;
+        line-height: 50px;
+
+        &:hover,
+        &:focus {
+          background-color: #2a2a2a;
+        }
+
+        &.ant-menu-item-selected {
+          background-color: #39c5bb;
+        }
+      }
+    }
+  }
+
+  .header {
+    background-color: #1d1d1d;
+    font-weight: bolder;
+  }
+
+  .ant-pagination-item {
+    background-color: #ffffff;
+    color: #fff;
+  }
+
+  .index-content {
+    background-color: #050816;
+    padding: 0px;
+    overflow: auto;
+    // clear: both;
+  }
+
+  .myinfo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.index-menu {
+  position: relative;
+}
+.info {
+  position: float;
+  color: white;
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

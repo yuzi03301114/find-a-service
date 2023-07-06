@@ -1,0 +1,61 @@
+$input_width: 280px;
+$input_height: 50px;
+.login {
+  height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 2vh 10vw 10vh;
+  background-color: #1d072e;
+  display: flex;
+
+  $height: 750px;
+  .img-box {
+    height: $height;
+    // background-color: skyblue;
+    // padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-right: 25px;
+    img {
+      height: $height;
+      display: block;
+      border-radius: 20px;
+    }
+  }
+
+  .login-box {
+    background-color: #dbd3e9;
+    height: $height;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 50px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    .form {
+      height: 100%;
+      border-radius: 10px;
+
+      .login-input {
+        width: $input_width;
+        height: $input_height;
+      }
+
+      .create-one {
+        color: blue;
+      }
+
+      .login-btn {
+        width: $input_width;
+        height: $input_height;
+        background-color: #473bab;
+      }
+
+      .google-login {
+        width: $input_width;
+        height: $input_height;
+        color: aliceblue;
+        background-color: black;
+      }
+    }
+  }
+}

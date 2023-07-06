@@ -1,0 +1,62 @@
+.add-service-area {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add-service-head {
+  background-color: #00bcbc;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+.add-service-basic {
+  background-color: #00bcbc;
+  border: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.add-service-location {
+  background-color: #00bcbc;
+  border: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.add-service-multimedia {
+  background-color: #00bcbc;
+  border: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.google-map-container {
+  height: 20em;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
